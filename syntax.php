@@ -49,6 +49,9 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
         $signs = "-~=+*.,;\/!|&\(\)";
         $pattern = "/[$signs]*([a-zA-Z]+)\(/is";
         $aAllowed = array(
+            "tag",
+            "tag_row",
+            "tag_col",
             "cell",
             "row",
             "col",
