@@ -12,13 +12,12 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
 
     function getInfo() {
         return array(
-                'author' => 'Gryaznov Sergey',
-                'email'  => 'stalker@os2.ru',
-                'date'   => '13-04-10',
-                'name'   => 'Table Calculations Plugin',
-                'desc'   => 'Enables Excel style formulas in table syntax',
-                'url'    => 'http://narezka.ru/tablecalc',
-                );
+            'author' => 'Christopher Voltz',
+            'email' => 'cjunk@voltz.ws',
+            'date' => '2016-04-29',
+            'name' => 'Table Calculations Plugin',
+            'desc' => 'Adds limited spreadsheet functionalit to tables',
+            'url' => 'https://github.com/cvoltz/tablecalc.git');
     }
 
     function getType() {
