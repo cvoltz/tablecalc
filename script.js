@@ -151,7 +151,7 @@ function range(x1,y1,x2,y2) {
 		}
 		result+=")"
 	}
-	return eval(result);	
+	return eval(result);
 }
 
 function count(a) {
@@ -331,12 +331,12 @@ function tablecalc(divID, formula, final) {
 						var tmp=to[1];
 						to[1]=from[1];
 						from[1]=tmp;
-					}			
+					}
 					for (var fx=from[0];fx<=to[0];fx++) {
 						for (var fy=from[1];fy<=to[1];fy++) {
 							if ((fx==cCol) && (fy==cRow) && (tmp_table==table)) {continue;}
 							var tmp=tablecalcVal(fx,fy,tmp_table);
-							tablecalc_log("member["+fx+","+fy+"]="+tmp);					
+							tablecalc_log("member["+fx+","+fy+"]="+tmp);
 							if ( (tmp == 'notnum') || (tmp == 'notset') ) {
 								tablecalcAddDefer(divID,oFormula);
 								if (!final) {
@@ -344,7 +344,7 @@ function tablecalc(divID, formula, final) {
 									return false;
 								} else {
 									members[members.length]=tablecalcVal(fx,fy,tmp_table,1);
-								}					
+								}
 							} else {/*if (tmp!='notset') {*/
 								members[members.length]=tmp;
 							}
@@ -377,8 +377,8 @@ function tablecalc(divID, formula, final) {
 			formula=formula.replace(matchA[i],result);
 		}
 	}
-	
-	formula=formula.replace(/;/g,",");	
+
+	formula=formula.replace(/;/g,",");
 	tablecalc_log("Evaluating: "+formula);
 	var rc;
 	try {
@@ -406,7 +406,7 @@ function tablecalc(divID, formula, final) {
 function tablecalcAddDefer(divID,formula) {
 	if (typeof tablecalc_defer[divID] == 'undefined') {
 		tablecalc_defer[divID]=formula;
-		tablecalc_log("Added defer: "+divID+"=>"+tablecalc_defer[divID]);		
+		tablecalc_log("Added defer: "+divID+"=>"+tablecalc_defer[divID]);
 	}
 }
 
