@@ -1,5 +1,5 @@
 Bottom: 3365e7f9e292693b892fe05f705c9491ed4be9a8
-Top:    59607ce07ae3add61284f3184a699451e2326fab
+Top:    db6072b77db59aa5962d0e4fbf9fba9bc8aea820
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2017-05-01 22:46:40 -0500
 
@@ -9,10 +9,10 @@ Add Rakefile
 
 diff --git a/Rakefile b/Rakefile
 new file mode 100644
-index 0000000..7b4c20b
+index 0000000..f98499e
 --- /dev/null
 +++ b/Rakefile
-@@ -0,0 +1,9 @@
+@@ -0,0 +1,19 @@
 +desc "Remove trailing whitespace"
 +task :rm_whitespace do
 +  `sed -i 's/[[:space:]]*$//' script.js syntax.php`
@@ -21,4 +21,14 @@ index 0000000..7b4c20b
 +desc "Reformat JS code"
 +task :reformat_js do
 +  `uglifyjs --beautify --output script.js -- script.js`
++end
++
++desc "Reformat PHP code"
++task :reformat_php do
++  mv "syntax.php", "syntax.php.in"
++  `php_beautifier \
++    --indent_spaces \
++    --filters "ArrayNested()" \
++    syntax.php.in > syntax.php`
++  rm "syntax.php.in"
 +end
