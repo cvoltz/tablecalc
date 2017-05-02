@@ -1,0 +1,114 @@
+Bottom: f82f9141ef7d77b30f826a259f27f5bb4fa66b73
+Top:    101f3510cc965b368721bb7f1b73b847618a4690
+Author: Christopher Voltz <cjunk@voltz.ws>
+Date:   2016-04-29 01:44:48 -0500
+
+Remove trailing whitespace
+
+
+---
+
+diff --git a/script.js b/script.js
+index 74fe026..f36e242 100644
+--- a/script.js
++++ b/script.js
+@@ -118,7 +118,7 @@ function range(x1,y1,x2,y2) {
+ 		}
+ 		result+=")"
+ 	}
+-	return eval(result);	
++	return eval(result);
+ }
+ 
+ function count(a) {
+@@ -249,17 +249,17 @@ function tablecalc(divID, formula, nodefer) {
+ 					var tmp=to[1];
+ 					to[1]=from[1];
+ 					from[1]=tmp;
+-				}			
++				}
+ 				for (var fx=from[0];fx<=to[0];fx++) {
+ 					for (var fy=from[1];fy<=to[1];fy++) {
+ 						if ((fx==cCol) && (fy==cRow)) {continue;}
+ 						var tmp=tablecalcVal(fx,fy,tmp_table);
+-						//alert("member["+fx+","+fy+"]="+tmp);						
++						//alert("member["+fx+","+fy+"]="+tmp);
+ 						if (tmp == 'notnum') {
+ 							tablecalcAddDefer(divID,oFormula);
+ 							if (!nodefer) {
+ 								tablecalcProcessDefer();
+-							}							
++							}
+ 							return false;
+ 						}
+ 						if (tmp!='notset') {
+@@ -291,11 +291,11 @@ function tablecalc(divID, formula, nodefer) {
+ 			formula=formula.replace(matchA[i],result);
+ 		}
+ 	}
+-	
++
+ 	//formula=formula.replace(/\(([a-z0-9_]+)\)/g,"('$1')");
+ 	//alert("Evaluating [nm]: "+formula);
+ 	//formula=formula.replace(/\#([^\(\);,]+)/,"'$1'");
+-	formula=formula.replace(/;/g,",");	
++	formula=formula.replace(/;/g,",");
+ //	alert("Evaluating: "+formula);
+ 	var rc;
+ 	try {
+@@ -317,7 +317,7 @@ function tablecalc(divID, formula, nodefer) {
+ function tablecalcAddDefer(divID,formula) {
+ 	if (typeof tablecalc_defer[divID] == 'undefined') {
+ 		tablecalc_defer[divID]=formula;
+-		//alert("Added defer: "+divID+"=>"+tablecalc_defer[divID]);		
++		//alert("Added defer: "+divID+"=>"+tablecalc_defer[divID]);
+ 	}
+ }
+ 
+diff --git a/syntax.php b/syntax.php
+index ed3b070..7f938c0 100644
+--- a/syntax.php
++++ b/syntax.php
+@@ -1,10 +1,10 @@
+ <?php
+ // must be run within Dokuwiki
+ if(!defined('DOKU_INC')) die();
+- 
++
+ if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
+ require_once(DOKU_PLUGIN.'syntax.php');
+- 
++
+ /**
+  * All DokuWiki plugins to extend the parser/rendering mechanism
+  * need to inherit from this class
+@@ -24,17 +24,17 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
+                 'url'    => 'http://narezka.ru/tablecalc',
+                 );
+     }
+- 
++
+     function getType() { return 'substition'; }
+     function getSort() { return 1213; }
+- 
++
+     /**
+      * Connect pattern to lexer
+      */
+     function connectTo($mode) {
+             $this->Lexer->addSpecialPattern("~~=[_a-z\ A-Z0-9\%\:\.,\\\/\*\-\+\(\)\&\|#><!=;]*~~", $mode, 'plugin_tablecalc');
+     }
+- 
++
+     /**
+      * Handle the match
+      */
+@@ -67,7 +67,7 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
+ 		return array('formula'=>$match, 'divid'=>'__tablecalc'.$this->id_index);
+ 
+     }
+- 
++
+     function render($mode, &$renderer, $data) {
+ 		global $INFO, $ID, $conf;
+ 		if($mode == 'xhtml'){

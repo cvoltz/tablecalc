@@ -1,0 +1,23 @@
+Bottom: 7379247059f0c0c1eba1092c9cf43507b8e0532a
+Top:    f82f9141ef7d77b30f826a259f27f5bb4fa66b73
+Author: Christopher Voltz <cjunk@voltz.ws>
+Date:   2016-04-29 01:44:06 -0500
+
+Add plugin.info.txt
+
+
+---
+
+diff --git a/plugin.info.txt b/plugin.info.txt
+new file mode 100644
+index 0000000..d9a69bb
+--- /dev/null
++++ b/plugin.info.txt
+@@ -0,0 +1,7 @@
++base   tablecalc
++author Christopher Voltz
++email  cjunk@voltz.ws
++date   2016-04-29
++name   Table Calculations Plugin
++desc   Adds limited spreadsheet functionality to tables
++url    https://github.com/cvoltz/tablecalc.git
