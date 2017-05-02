@@ -1,6 +1,6 @@
 Version: 1
-Previous: fb0d1ec1197f45817f9d604b6c1dadd48940d902
-Head: 314022f9435bfc40ee444d3f390cb25e41bb6930
+Previous: 3641b619f889e04e80caf08c9d28aa932c2cfa2b
+Head: d43e1800bdd37c6cb7ee9ae58d1556aa774ca1b4
 Applied:
   update: 82d8186b5b5113576993591c7c6200ca7aad6266
   rakefile: 503761c4427766e1813d945460fb9fce7cc63a64
@@ -10,8 +10,7 @@ Applied:
   plugin-info: fec0cd8f0178a87b3d85264aa323a29eb5ecc568
   info: bc3cd9b66ccfd1358e45b21cba41f407899370c4
   readme: 459245fe66cb2eb356fa3c67fe7a66c03f46e630
-  changelog: 8e980cf9f386e68948cb466e36eaa88cd0a3e840
-  refresh-temp: 314022f9435bfc40ee444d3f390cb25e41bb6930
+  changelog: d43e1800bdd37c6cb7ee9ae58d1556aa774ca1b4
 Unapplied:
   tags: e14e6a285187489874f2f37bb8623316a89c9c18
 Hidden:
