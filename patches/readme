@@ -1,5 +1,5 @@
 Bottom: f58aa69c3adee5cef59558b360220f1b21d5fdfb
-Top:    89a11c07e3528284e7e17a2863787d1d3d5f5fb5
+Top:    8bd0277b4a4ecaf24993bf2a1550dd1e3b1bf68e
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2016-04-29 01:43:43 -0500
 
@@ -9,10 +9,10 @@ Update README and convert to English
 ---
 
 diff --git a/README.md b/README.md
-index e3ade3f..0520977 100644
+index e3ade3f..aed0ed2 100644
 --- a/README.md
 +++ b/README.md
-@@ -1,7 +1,8 @@
+@@ -1,7 +1,11 @@
  tablecalc
  =========
  
@@ -20,7 +20,10 @@ index e3ade3f..0520977 100644
 -
 -Fork: https://www.dokuwiki.org/plugin:tablecalc
 +Dokuwiki plugin which adds limited spreadsheet functionality to tables. See
-+the original documentation page at: https://www.dokuwiki.org/plugin:tablecalc
++the original documentation page at: https://www.dokuwiki.org/plugin:tablecalc.
  
-+Forked from https://github.com/pirati-cz/tablecalc. See the CHANGELOG.md for a
-+list of differences.
++Forked from https://github.com/pirati-cz/tablecalc. Adds the following
++functions:
++  - tag(name)     Associate the current row and column with a name
++  - tag_col(name) Return the column for the specified tag
++  - tag_row(name) Return the row for the specified tag
