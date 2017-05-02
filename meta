@@ -1,6 +1,6 @@
 Version: 1
-Previous: 0fdae1b1d73f222f9278b26f63622c9008f9d82f
-Head: 98b33a37665d4b0d1c34f931bb4e789b96ee1736
+Previous: 6cc40bcfc2151deb1782ab0e8149094dcdbd13f8
+Head: ff934da4c17ca5ef559a73a983fb4a63bf3b17f8
 Applied:
   update: 82d8186b5b5113576993591c7c6200ca7aad6266
   rakefile: 503761c4427766e1813d945460fb9fce7cc63a64
@@ -12,5 +12,6 @@ Applied:
   readme: b9b7d89af331eec0fa1b7c6dce5388eceef89beb
   changelog: c31173e23e1043548ddef59ebf7576ddab330cd1
   tags: 98b33a37665d4b0d1c34f931bb4e789b96ee1736
+  refresh-temp: ff934da4c17ca5ef559a73a983fb4a63bf3b17f8
 Unapplied:
 Hidden:
