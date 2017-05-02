@@ -1,14 +1,14 @@
 Version: 1
-Previous: fd12d0df17e2670f7de17b80b1903d62a5d4a10c
-Head: 2a7d0b7c8c90ddbd6d3d91ae064cd8adf93b4836
+Previous: b0adf6b182c3ebf6b39f922f9819fd01be31fae1
+Head: 5b3989fa79c59ef6a1d874c0630a226762c91f69
 Applied:
   rm-whitespace: cdf9df59c5439d5bd245770ddbca20e8fc92b10e
   reformat-js: 7412d6a11513210e2b7f4823afd594f32109a147
   reformat-php: b16e229754d3c225d9c98e93662e7e0030360865
   plugin-info: 2ba563bb804e5172b938fe329b878d0dc435cb9e
   info: 5b3989fa79c59ef6a1d874c0630a226762c91f69
-  readme: 2a7d0b7c8c90ddbd6d3d91ae064cd8adf93b4836
 Unapplied:
+  readme: 2a7d0b7c8c90ddbd6d3d91ae064cd8adf93b4836
   changelog: 49049f6a41d24f255eb7265321291da31f25aa58
   tags: e14e6a285187489874f2f37bb8623316a89c9c18
 Hidden:
