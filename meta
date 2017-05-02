@@ -1,8 +1,8 @@
 Version: 1
-Previous: 7e4933cfaca026988647ed06ef7a0e6ed8355094
+Previous: 384aa6910c8f7422ea304a1322eed3c4581949a2
 Head: 911ba95103f1e490fd94153714abea3cb5777ce2
 Applied:
-  update-readme-and-convert-to: 67a768e6acba0a23b0cda7f9f8c7ff97a4be7d57
+  readme: 67a768e6acba0a23b0cda7f9f8c7ff97a4be7d57
   add-plugin-info-txt: 7629807d95b932568af63698675ca7e2edeab666
   remove-trailing-whitespace: e3d5d7054aa10060548a435037d2308a4c39a8d5
   reformat-javascript-source: 93215cf3504b8bc3958342e6333e325c69f228bd
