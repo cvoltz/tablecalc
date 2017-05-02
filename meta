@@ -1,6 +1,6 @@
 Version: 1
-Previous: 7a49448c1f669b47b5fbb03037b1dd7454f4ae0e
-Head: d740c3bb560ff2aa364a5cca09ff2b8adea1fcb8
+Previous: 55320940dbf5d0f1fc36168c50f35822c04755eb
+Head: 8bfb2eca9dbb4ed4b24a397b18212598b5366444
 Applied:
   readme: 67a768e6acba0a23b0cda7f9f8c7ff97a4be7d57
   info: 7629807d95b932568af63698675ca7e2edeab666
@@ -8,6 +8,6 @@ Applied:
   reformat-js: 93215cf3504b8bc3958342e6333e325c69f228bd
   reformat-php: 1c262bd3ed063d8e8b4d8d49ec3d3707607dbdc5
   changelog: 8bfb2eca9dbb4ed4b24a397b18212598b5366444
-  tags: d740c3bb560ff2aa364a5cca09ff2b8adea1fcb8
 Unapplied:
+  tags: d740c3bb560ff2aa364a5cca09ff2b8adea1fcb8
 Hidden:
