@@ -1,7 +1,8 @@
 Version: 1
-Previous: 1940bcd5727f27849ec663020f675244a135fb24
-Head: 48114d1c24d620b5070f52ed45ab43ace5f20637
+Previous: 280ebaa783f9ed6a5828c4f7b3fa99a14254f97f
+Head: d96dbcb26d938b88789317dbb382db21df812fd6
 Applied:
+  update: d96dbcb26d938b88789317dbb382db21df812fd6
 Unapplied:
   rm-whitespace: cdf9df59c5439d5bd245770ddbca20e8fc92b10e
   reformat-js: 7412d6a11513210e2b7f4823afd594f32109a147
