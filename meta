@@ -1,9 +1,9 @@
 Version: 1
-Previous: 76a39d14203808dfcf6f095847dc87148e2d48b3
-Head: cdf9df59c5439d5bd245770ddbca20e8fc92b10e
+Previous: 1940bcd5727f27849ec663020f675244a135fb24
+Head: 48114d1c24d620b5070f52ed45ab43ace5f20637
 Applied:
-  rm-whitespace: cdf9df59c5439d5bd245770ddbca20e8fc92b10e
 Unapplied:
+  rm-whitespace: cdf9df59c5439d5bd245770ddbca20e8fc92b10e
   reformat-js: 7412d6a11513210e2b7f4823afd594f32109a147
   reformat-php: b16e229754d3c225d9c98e93662e7e0030360865
   plugin-info: 2ba563bb804e5172b938fe329b878d0dc435cb9e
