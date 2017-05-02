@@ -1,0 +1,27 @@
+Bottom: 3d95ffa4e600220fd21066e9e125f1059589c043
+Top:    05beb6f74e148d31e224769fc064228c81eace21
+Author: Christopher Voltz <cjunk@voltz.ws>
+Date:   2017-05-01 23:14:42 -0500
+
+Refresh of rakefile
+
+---
+
+diff --git a/Rakefile b/Rakefile
+index 7b4c20b..f98499e 100644
+--- a/Rakefile
++++ b/Rakefile
+@@ -7,3 +7,13 @@ desc "Reformat JS code"
+ task :reformat_js do
+   `uglifyjs --beautify --output script.js -- script.js`
+ end
++
++desc "Reformat PHP code"
++task :reformat_php do
++  mv "syntax.php", "syntax.php.in"
++  `php_beautifier \
++    --indent_spaces \
++    --filters "ArrayNested()" \
++    syntax.php.in > syntax.php`
++  rm "syntax.php.in"
++end
