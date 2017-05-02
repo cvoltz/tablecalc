@@ -1,5 +1,5 @@
-Bottom: fd778748f9f80d0ccf2edb497472465c04fcec88
-Top:    8a62e0f916c99daa6c2aa9c5d653b3e116b20ca2
+Bottom: cfe451398d2db16fa825d0b7dd0794ec520e3a14
+Top:    f6737619d6db54c0d8997c500925ce32946af3fe
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2016-04-29 02:24:16 -0500
 
@@ -12,7 +12,7 @@ Remove useless comments and update the returned information block.
 ---
 
 diff --git a/syntax.php b/syntax.php
-index b27eb91..9abd1ff 100644
+index 7f938c0..c88b049 100644
 --- a/syntax.php
 +++ b/syntax.php
 @@ -1,19 +1,15 @@
@@ -42,9 +42,9 @@ index b27eb91..9abd1ff 100644
 +
      function getInfo() {
          return array(
-             'author' => 'Christopher Voltz',
-@@ -24,56 +20,54 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
-             'url' => 'https://github.com/cvoltz/tablecalc.git');
+                 'author' => 'Gryaznov Sergey',
+@@ -25,56 +21,54 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
+                 );
      }
  
 -    function getType() { return 'substition'; }
