@@ -1,0 +1,14 @@
+Bottom: 05beb6f74e148d31e224769fc064228c81eace21
+Top:    05beb6f74e148d31e224769fc064228c81eace21
+Author: Christopher Voltz <cjunk@voltz.ws>
+Date:   2017-05-01 23:15:46 -0500
+
+Reformat PHP source and update Info block
+
+Run PHP script through PHP_Beautifier to get consistent formatting.
+Remove useless comments and update the returned information block.
+
+
+---
+
+
