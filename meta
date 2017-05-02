@@ -1,9 +1,9 @@
 Version: 1
-Previous: 5a7104cf264ca7aa5737276227f58982195d3fa1
+Previous: fe76bfec5b4d9b758f8cfbb78adfcd4c433c98b3
 Head: 93215cf3504b8bc3958342e6333e325c69f228bd
 Applied:
   readme: 67a768e6acba0a23b0cda7f9f8c7ff97a4be7d57
-  info: 7629807d95b932568af63698675ca7e2edeab666
+  plugin-info: 7629807d95b932568af63698675ca7e2edeab666
   rm-whitespace: e3d5d7054aa10060548a435037d2308a4c39a8d5
   reformat-js: 93215cf3504b8bc3958342e6333e325c69f228bd
 Unapplied:
