@@ -1,0 +1,21 @@
+Bottom: 8a62e0f916c99daa6c2aa9c5d653b3e116b20ca2
+Top:    898ee2de1a88b99899117fea400f180d514a4f73
+Author: Christopher Voltz <cjunk@voltz.ws>
+Date:   2017-05-01 21:58:57 -0500
+
+Refresh of changelog
+
+---
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+new file mode 100644
+index 0000000..e7fee88
+--- /dev/null
++++ b/CHANGELOG.md
+@@ -0,0 +1,6 @@
++# Change Log
++
++## Unreleased
++### Added
++- tag, tag_row, and tag_col keywords which allow one to tag a cell in a
++  table and later get the row and column of the tagged cell
