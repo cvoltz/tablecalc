@@ -1,6 +1,6 @@
 Version: 1
-Previous: a98c05bb38a643b2e75dca60f0f5ede110b96af4
-Head: 10f949e26e7ed1401c17bdbdd7703e1c9ad4c068
+Previous: aa29f50329ddd2a72fe41b8f04bc92211115b780
+Head: d33bfe2ccae9fbf17b31d7252dd018ce40df987f
 Applied:
   update: 82d8186b5b5113576993591c7c6200ca7aad6266
   rakefile: 503761c4427766e1813d945460fb9fce7cc63a64
@@ -9,9 +9,8 @@ Applied:
   reformat-php: be0e81244c177fee055e4098d3bf628f600e94c5
   plugin-info: fec0cd8f0178a87b3d85264aa323a29eb5ecc568
   info: bc3cd9b66ccfd1358e45b21cba41f407899370c4
-  readme: 770762b7c6ccace2399bcd7fbe30f6ceb0048595
-  changelog: d6dfd3fdb0f4f0c2c2227f2e3be9a5bd324c128e
-  tags: bdf365264595b4add607fcddc0f00f18d1bff22c
-  refresh-temp: 10f949e26e7ed1401c17bdbdd7703e1c9ad4c068
+  readme: 9d9b4d3b4f1ca25abf67df41a37a7653ec0f2519
+  changelog: 4463be12737f093e9b0861757f6d435c98719c6f
+  tags: d33bfe2ccae9fbf17b31d7252dd018ce40df987f
 Unapplied:
 Hidden:
