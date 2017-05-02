@@ -1,5 +1,5 @@
-Bottom: 0dd487508ba7b391db7cea3fd2ecbf63275e5b9f
-Top:    5007a2a7ccc57b81a477f8ba5df1d44c2518a549
+Bottom: 963c3e7b68d4a759f76c58eaa780d3484637a4de
+Top:    963c3e7b68d4a759f76c58eaa780d3484637a4de
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2017-05-01 22:06:31 -0500
 
@@ -7,27 +7,4 @@ Update getInfo block
 
 ---
 
-diff --git a/syntax.php b/syntax.php
-index c88b049..67e24af 100644
---- a/syntax.php
-+++ b/syntax.php
-@@ -12,13 +12,12 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
- 
-     function getInfo() {
-         return array(
--                'author' => 'Gryaznov Sergey',
--                'email'  => 'stalker@os2.ru',
--                'date'   => '13-04-10',
--                'name'   => 'Table Calculations Plugin',
--                'desc'   => 'Enables Excel style formulas in table syntax',
--                'url'    => 'http://narezka.ru/tablecalc',
--                );
-+            'author' => 'Christopher Voltz',
-+            'email' => 'cjunk@voltz.ws',
-+            'date' => '2016-04-29',
-+            'name' => 'Table Calculations Plugin',
-+            'desc' => 'Adds limited spreadsheet functionality to tables',
-+            'url' => 'https://github.com/cvoltz/tablecalc.git');
-     }
- 
-     function getType() {
+
