@@ -1,9 +1,10 @@
 Version: 1
-Previous: 1b271bfe54862360efba1c1e904e56c4d5525e62
-Head: 86f93d271139cb3db0e23d952dc4577188c8f541
+Previous: b0730e491972d231caaa2a14e9f633f46dbcb436
+Head: 8f330aa7efc3acd4fe5754bfd8768b8a3ebbb4a2
 Applied:
   update: 82d8186b5b5113576993591c7c6200ca7aad6266
   rakefile: 86f93d271139cb3db0e23d952dc4577188c8f541
+  refresh-temp: 8f330aa7efc3acd4fe5754bfd8768b8a3ebbb4a2
 Unapplied:
   rm-whitespace: e95ca3a81c8f869a05f3b6b4e91e0d030b61c5df
   reformat-js: 7412d6a11513210e2b7f4823afd594f32109a147
