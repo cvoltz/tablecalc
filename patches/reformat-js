@@ -1,0 +1,15 @@
+Bottom: 5d87538a728bb654c0aa8a41e52d55379c3d4967
+Top:    5d87538a728bb654c0aa8a41e52d55379c3d4967
+Author: Christopher Voltz <cjunk@voltz.ws>
+Date:   2017-05-01 22:50:57 -0500
+
+Reformat javascript source code
+
+Run the javascript source file through uglifyjs with the --beautify
+option to get the code to have a consistent format. The code is still in
+serious need of refactoring.
+
+
+---
+
+
