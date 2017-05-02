@@ -1,11 +1,12 @@
 Version: 1
-Previous: be1b3bf81aba82f0321f25f567b11d0777aa2210
-Head: a0de94818237fc091da8bb511c3e273d3a065b2f
+Previous: baef01c5d040b099b998a7b3840db93155bebae8
+Head: 4a292f04942edd8c3beca2decfb2cbe198821cd2
 Applied:
   update: 82d8186b5b5113576993591c7c6200ca7aad6266
   rakefile: 86f93d271139cb3db0e23d952dc4577188c8f541
   rm-whitespace: 7deb06ca12a0841ab112da2145c3a0d9a6cdc54b
   reformat-js: a0de94818237fc091da8bb511c3e273d3a065b2f
+  refresh-temp: 4a292f04942edd8c3beca2decfb2cbe198821cd2
 Unapplied:
   reformat-php: b16e229754d3c225d9c98e93662e7e0030360865
   plugin-info: 2ba563bb804e5172b938fe329b878d0dc435cb9e
