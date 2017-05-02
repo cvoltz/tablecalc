@@ -1,5 +1,5 @@
 Bottom: f58aa69c3adee5cef59558b360220f1b21d5fdfb
-Top:    3ab948dfa83c4e207f070f468c3bbc170fb460b2
+Top:    89a11c07e3528284e7e17a2863787d1d3d5f5fb5
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2016-04-29 01:43:43 -0500
 
@@ -9,10 +9,10 @@ Update README and convert to English
 ---
 
 diff --git a/README.md b/README.md
-index e3ade3f..99e20e6 100644
+index e3ade3f..0520977 100644
 --- a/README.md
 +++ b/README.md
-@@ -1,7 +1,7 @@
+@@ -1,7 +1,8 @@
  tablecalc
  =========
  
@@ -22,4 +22,5 @@ index e3ade3f..99e20e6 100644
 +Dokuwiki plugin which adds limited spreadsheet functionality to tables. See
 +the original documentation page at: https://www.dokuwiki.org/plugin:tablecalc
  
-+Forked from https://github.com/pirati-cz/tablecalc
++Forked from https://github.com/pirati-cz/tablecalc. See the CHANGELOG.md for a
++list of differences.
