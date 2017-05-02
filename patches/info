@@ -1,5 +1,5 @@
 Bottom: 0dd487508ba7b391db7cea3fd2ecbf63275e5b9f
-Top:    8e51ae702427b7a7a87950b153ed76720484dc1b
+Top:    5007a2a7ccc57b81a477f8ba5df1d44c2518a549
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2017-05-01 22:06:31 -0500
 
@@ -8,7 +8,7 @@ Update getInfo block
 ---
 
 diff --git a/syntax.php b/syntax.php
-index c88b049..9abd1ff 100644
+index c88b049..67e24af 100644
 --- a/syntax.php
 +++ b/syntax.php
 @@ -12,13 +12,12 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
@@ -26,7 +26,7 @@ index c88b049..9abd1ff 100644
 +            'email' => 'cjunk@voltz.ws',
 +            'date' => '2016-04-29',
 +            'name' => 'Table Calculations Plugin',
-+            'desc' => 'Adds limited spreadsheet functionalit to tables',
++            'desc' => 'Adds limited spreadsheet functionality to tables',
 +            'url' => 'https://github.com/cvoltz/tablecalc.git');
      }
  
