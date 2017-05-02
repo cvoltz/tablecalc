@@ -1,4 +1,4 @@
-Bottom: bad72352ee9cd86d6e8954e57fb0e6f9dd163b01
+Bottom: fd778748f9f80d0ccf2edb497472465c04fcec88
 Top:    8a62e0f916c99daa6c2aa9c5d653b3e116b20ca2
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2016-04-29 02:24:16 -0500
@@ -12,10 +12,10 @@ Remove useless comments and update the returned information block.
 ---
 
 diff --git a/syntax.php b/syntax.php
-index 7f938c0..9abd1ff 100644
+index b27eb91..9abd1ff 100644
 --- a/syntax.php
 +++ b/syntax.php
-@@ -1,80 +1,73 @@
+@@ -1,19 +1,15 @@
  <?php
 -// must be run within Dokuwiki
 -if(!defined('DOKU_INC')) die();
@@ -42,19 +42,9 @@ index 7f938c0..9abd1ff 100644
 +
      function getInfo() {
          return array(
--                'author' => 'Gryaznov Sergey',
--                'email'  => 'stalker@os2.ru',
--                'date'   => '13-04-10',
--                'name'   => 'Table Calculations Plugin',
--                'desc'   => 'Enables Excel style formulas in table syntax',
--                'url'    => 'http://narezka.ru/tablecalc',
--                );
-+            'author' => 'Christopher Voltz',
-+            'email' => 'cjunk@voltz.ws',
-+            'date' => '2016-04-29',
-+            'name' => 'Table Calculations Plugin',
-+            'desc' => 'Adds limited spreadsheet functionalit to tables',
-+            'url' => 'https://github.com/cvoltz/tablecalc.git');
+             'author' => 'Christopher Voltz',
+@@ -24,56 +20,54 @@ class syntax_plugin_tablecalc extends DokuWiki_Syntax_Plugin {
+             'url' => 'https://github.com/cvoltz/tablecalc.git');
      }
  
 -    function getType() { return 'substition'; }
