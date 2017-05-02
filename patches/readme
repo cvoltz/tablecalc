@@ -1,5 +1,5 @@
 Bottom: f58aa69c3adee5cef59558b360220f1b21d5fdfb
-Top:    8bd0277b4a4ecaf24993bf2a1550dd1e3b1bf68e
+Top:    dcdc8abbd11aa4b9839d864316e832ddf3e87bf5
 Author: Christopher Voltz <cjunk@voltz.ws>
 Date:   2016-04-29 01:43:43 -0500
 
@@ -9,7 +9,7 @@ Update README and convert to English
 ---
 
 diff --git a/README.md b/README.md
-index e3ade3f..aed0ed2 100644
+index e3ade3f..0b56ff6 100644
 --- a/README.md
 +++ b/README.md
 @@ -1,7 +1,11 @@
@@ -24,6 +24,6 @@ index e3ade3f..aed0ed2 100644
  
 +Forked from https://github.com/pirati-cz/tablecalc. Adds the following
 +functions:
-+  - tag(name)     Associate the current row and column with a name
-+  - tag_col(name) Return the column for the specified tag
-+  - tag_row(name) Return the row for the specified tag
++  | ''tag(name)''     | Associate the current row and column with a name |
++  | ''tag_col(name)'' | Return the column for the specified tag          |
++  | ''tag_row(name)'' | Return the row for the specified tag             |
